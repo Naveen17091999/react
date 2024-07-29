@@ -1,0 +1,87 @@
+#layout {
+
+
+}
+
+#Navbar {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+    h1 {
+
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .options{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        a{
+            text-decoration: none;
+
+            span{
+                color: black;
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+    
+            .image {
+                width: 40px;
+                height: 40px;
+                background: no-repeat url("https://images.pexels.com/photos/27169555/pexels-photo-27169555/free-photo-of-a-woman-in-a-black-dress-leaning-against-a-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+                background-position: center;
+                background-size: cover;
+                border-radius: 50%;
+            }
+    
+            p {
+                margin: 0;
+                font-weight: 500;
+                color: aliceblue;
+    
+                
+            }
+        }
+    }
+
+   
+}
+
+#dashboard {
+    height: 90vh;
+    background: rgb(0, 50, 23);
+    background: linear-gradient(90deg, rgba(54,254,255,1) 0%, rgba(0, 31, 108, 1) 100%);
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+
+        button{
+            border: none;
+            padding:10px 20px;
+            font-size: 1.5em;
+            font-weight: 500;
+            border-radius: 5px;
+            background: #FF8225;
+            a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+    }
+}
